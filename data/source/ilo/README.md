@@ -11,5 +11,6 @@ EMP_TEMP_SEX_INS_NB_A-20240725T0039.csv | https://rplumber.ilo.org/data/indicato
 
 
 
-## Imagen de referencia del sitio fuente
-<img width="1358" alt="image" src="https://github.com/elaval/data_chile/assets/68602/62c38fc4-da68-4a19-a4ab-f572cc4142a7">
+## Reference image from the source site
+<img width="1259" alt="image" src="https://github.com/user-attachments/assets/6ca7dd28-71d2-4861-8e12-00a4672719f4">
+
