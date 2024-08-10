@@ -1,6 +1,17 @@
 Data sources from the World Bank [https://data.worldbank.org/](https://data.worldbank.org/)
 
-* API_PA.NUS.PPPC.RF_DS2_en_csv_v2_1665754
+## Price level ratio of PPP conversion factor (GDP) to market exchange rate - ID: PA.NUS.PPPC.RF
+Path: API_PA.NUS.PPPC.RF_DS2_en_csv_v2_1665754
+
+Price level ratio is the ratio of a purchasing power parity (PPP) conversion factor to an exchange rate. It provides a measure of the differences in price levels between countries by indicating the number of units of the common currency needed to buy the same volume of the aggregation level in each country. At the level of GDP, they provide a measure of the differences in the general price levels of countries.
+
+ID: PA.NUS.PPPC.RF
+Source: International Comparison Program, World Bank | World Development Indicators database, World Bank | Eurostat-OECD PPP Programme.
+License:  CC BY-4.0 
+Long Definition: Price level ratio is the ratio of a purchasing power parity (PPP) conversion factor to an exchange rate. It provides a measure of the differences in price levels between countries by indicating the number of units of the common currency needed to buy the same volume of the aggregation level in each country. At the level of GDP, they provide a measure of the differences in the general price levels of countries.
+Periodicity: Annual
+Statistical Concept and Methodology: For more information on underlying GDP in current international dollar, please refer to the metadata for "GDP, PPP (current international $)" [NY.GDP.MKTP.PP.CD]. For more information on market exchange reate, please refer to the metadata for "DEC alternative conversion factor (LCU per US$)" [PA.NUS.ATLS]. For the concept and methodology of PPP, please refer to the International Comparison Program (ICP)’s website (worldbank.org/en/programs/icp).
+
 
 ## GDP (current US$) - ID: NY.GDP.MKTP.CD  
 Path: API_NY.GDP.MKTP.CD_DS2_en_csv_v2_2002465  
