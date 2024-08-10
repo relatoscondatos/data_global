@@ -133,12 +133,11 @@ Long Definition: GDP per capita based on purchasing power parity (PPP). PPP GDP 
 Periodicity: Annual
 Statistical Concept and Methodology: For the concept and methodology of PPP, please refer to the International Comparison Program (ICP)’s website (worldbank.org/en/programs/icp).
 
-## GDP per capita (current LCU)
-**Pending**
+## GDP per capita (current LCU) - ID: NY.GDP.PCAP.CN
+Path: API_NY.GDP.PCAP.CN_DS2_en_csv_v2_2789032
 
 GDP per capita is gross domestic product divided by midyear population. GDP is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated assets or for depletion and degradation of natural resources. Data are in current local currency.
 
-ID: NY.GDP.PCAP.CN
 Source: World Bank national accounts data, and OECD National Accounts data files.
 License:  CC BY-4.0 
 Long Definition: GDP per capita is gross domestic product divided by midyear population. GDP is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated assets or for depletion and degradation of natural resources. Data are in current local currency.
