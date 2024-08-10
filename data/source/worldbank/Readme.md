@@ -1,16 +1,40 @@
 Data sources from the World Bank [https://data.worldbank.org/](https://data.worldbank.org/)
 
+## PPP conversion factor, GDP (LCU per international $) - ID: PA.NUS.PPP
+Path: API_PA.NUS.PPP_DS2_en_csv_v2_2788598  
+
+Purchasing power parity (PPP) conversion factor is a spatial price deflator and currency converter that controls for price level differences between countries, thereby allowing volume comparisons of gross domestic product (GDP) and its expenditure components. This conversion factor is for GDP.
+
+### Source: 
+International Comparison Program, World Bank | World Development Indicators database, World Bank | Eurostat-OECD PPP Programme.
+### License:  
+CC BY-4.0 
+### Development Relevance: 
+PPP can be used to convert national accounts data, like GDP and its expenditure components, into a common currency, while also eliminating the effect of price level differences between countries. They can also be used to derive price level indexes (PLIs), the ratio of a country’s PPP to its market exchange rate, to directly compare price levels across countries. PPPs and the PLIs and real (or PPP-adjusted) expenditures to which they give rise allow for many use-cases, but they are particularly valuable for empirical work involving comparisons of per capita consumption or levels of GDP (or other GDP aggregates) across countries and for the measurement of global poverty and global income inequality. The breadth and depth of ICP data allows its use-cases to cover other areas of economics, including empirical analyses of economic growth, productivity and trade, and even beyond, for instance, to help track global targets such as the UN Sustainable Development Goals related to health, education, energy and emissions and labor. Other applications of ICP data include their use in the construction of indexes, for example cost-of-living measures. Uses-cases can even be extended into the policymaking domain at all levels (global, regional and national) given the increased importance of cross-country benchmarking, among other possibilities. Recommended uses of PPPs include: To make spatial comparisons of GDP and its expenditure components | To make spatial comparisons of price levels | To group countries by their per capita volume indexes and price level indexes Recommended uses of PPPs with limitations include: To analyze changes over time in relative GDP per capita and relative prices | To analyze price convergence | To make spatial comparisons of the cost of living | To use PPPs calculated for GDP and its expenditure components as deflators for other values.
+### Limitations and Exceptions: 
+Global PPP estimates provided by ICP are produced by the ICP Global Office and regional implementing agencies, based on data supplied by participating countries, and in accordance with the methodology recommended by the ICP Technical Advisory Group and approved by the ICP Governing Board. As such, these results are not produced by participating countries as part of their national official statistics. PPPs are not recommended use: As a precise measure to establish strict rankings of countries | As a means of constructing national growth rates | As a measure to generate output and productivity comparisons by industry | As an indicator of the undervaluation or overvaluation of currencies | As an equilibrium exchange rate.
+### Long Definition: 
+Purchasing power parity (PPP) conversion factor is a spatial price deflator and currency converter that controls for price level differences between countries, thereby allowing volume comparisons of gross domestic product (GDP) and its expenditure components. This conversion factor is for GDP.
+### Periodicity: 
+Annual
+### Statistical Concept and Methodology: 
+PPPs are both currency conversion factors and spatial price indexes. PPPs convert different currencies to a common currency and, in the process of conversion, equalize their purchasing power by controlling differences in price levels between countries. Typically, higher income countries have higher price levels, while lower income countries have lower price levels (Balassa-Samuelson effect). Market exchange rate-based cross-country comparisons of GDP at its expenditure components reflect both differences in economic outputs (volumes) and prices. Given the differences in price levels, the size of higher income countries is inflated, while the size of lower income countries is depressed in the comparison. PPP-based cross-country comparisons of GDP at its expenditure components only reflect differences in economic outputs (volume), as PPPs control for price level differences between the countries. Hence, the comparison reflects the real size of the countries. The International Comparison Program (ICP) estimates PPPs for the world’s countries. The ICP is conducted as a global partnership of countries, multilateral agencies, and academia. The most recent 2021 ICP comparison covered 176 countries, including 47 Eurostat-OECD countries. For countries that have not participated in ICP comparisons, the PPP are imputed based on a regression model. ICP estimated PPPs cover years from 2011 to 2021. WDI extrapolates 2011 PPPs for years earlier years, and 2021 PPPs for later years. Description of WDI extrapolation approach is available here: datahelpdesk.worldbank.org/knowledgebase/articles/665452-how-do-you-extrapolate-the-ppp-conversion-factors For the member countries of Eurostat-OECD PPP Programme, PPP conversion factors are periodically updated based on the organizations’ databases. For Eurostat-OECD PPP Programme, please refer to the following websites. (oecd.org/sdd/prices-ppp/) (ec.europa.eu/eurostat/web/purchasing-power-parities/overview) For more information on the ICP and PPPs, please refer to the ICP website at worldbank.org/en/programs/icp.
+
 ## Price level ratio of PPP conversion factor (GDP) to market exchange rate - ID: PA.NUS.PPPC.RF
 Path: API_PA.NUS.PPPC.RF_DS2_en_csv_v2_1665754
 
 Price level ratio is the ratio of a purchasing power parity (PPP) conversion factor to an exchange rate. It provides a measure of the differences in price levels between countries by indicating the number of units of the common currency needed to buy the same volume of the aggregation level in each country. At the level of GDP, they provide a measure of the differences in the general price levels of countries.
 
-ID: PA.NUS.PPPC.RF
-Source: International Comparison Program, World Bank | World Development Indicators database, World Bank | Eurostat-OECD PPP Programme.
-License:  CC BY-4.0 
-Long Definition: Price level ratio is the ratio of a purchasing power parity (PPP) conversion factor to an exchange rate. It provides a measure of the differences in price levels between countries by indicating the number of units of the common currency needed to buy the same volume of the aggregation level in each country. At the level of GDP, they provide a measure of the differences in the general price levels of countries.
-Periodicity: Annual
-Statistical Concept and Methodology: For more information on underlying GDP in current international dollar, please refer to the metadata for "GDP, PPP (current international $)" [NY.GDP.MKTP.PP.CD]. For more information on market exchange reate, please refer to the metadata for "DEC alternative conversion factor (LCU per US$)" [PA.NUS.ATLS]. For the concept and methodology of PPP, please refer to the International Comparison Program (ICP)’s website (worldbank.org/en/programs/icp).
+### Source: 
+International Comparison Program, World Bank | World Development Indicators database, World Bank | Eurostat-OECD PPP Programme.
+### License:  
+CC BY-4.0 
+### Long Definition: 
+Price level ratio is the ratio of a purchasing power parity (PPP) conversion factor to an exchange rate. It provides a measure of the differences in price levels between countries by indicating the number of units of the common currency needed to buy the same volume of the aggregation level in each country. At the level of GDP, they provide a measure of the differences in the general price levels of countries.
+### Periodicity: 
+Annual
+### Statistical Concept and Methodology: 
+For more information on underlying GDP in current international dollar, please refer to the metadata for "GDP, PPP (current international $)" [NY.GDP.MKTP.PP.CD]. For more information on market exchange reate, please refer to the metadata for "DEC alternative conversion factor (LCU per US$)" [PA.NUS.ATLS]. For the concept and methodology of PPP, please refer to the International Comparison Program (ICP)’s website (worldbank.org/en/programs/icp).
 
 
 ## GDP (current US$) - ID: NY.GDP.MKTP.CD  
@@ -92,66 +116,93 @@ GDP is the sum of gross value added by all resident producers in the economy plu
 ### Periodicity: 
 Annual  
 
-## GDP per capita (current US$)
+## GDP per capita (current US$) - ID: NY.GDP.PCAP.CD
+
 Path: API_NY.GDP.PCAP.CD_DS2_en_csv_v2_1887433
 
 GDP per capita is gross domestic product divided by midyear population. GDP is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated assets or for depletion and degradation of natural resources. Data are in current U.S. dollars.
 
-ID: NY.GDP.PCAP.CD
-Source: World Bank national accounts data, and OECD National Accounts data files.
-License:  CC BY-4.0 
-Aggregation Method: Weighted average
-Long Definition: GDP per capita is gross domestic product divided by midyear population. GDP is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated assets or for depletion and degradation of natural resources. Data are in current U.S. dollars.
-Periodicity: Annual
-Statistical Concept and Methodology: For more information, see the metadata for current U.S. dollar GDP (NY.GDP.MKTP.CD) and total population (SP.POP.TOTL).
+### Source: 
+World Bank national accounts data, and OECD National Accounts data files.
+### License:  
+CC BY-4.0 
+### Aggregation Method: 
+Weighted average
+### Long Definition: 
+GDP per capita is gross domestic product divided by midyear population. GDP is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated assets or for depletion and degradation of natural resources. Data are in current U.S. dollars.
+### Periodicity: 
+Annual
+### Statistical Concept and Methodology: 
+For more information, see the metadata for current U.S. dollar GDP (NY.GDP.MKTP.CD) and total population (SP.POP.TOTL).
 
-## GDP per capita (constant LCU)
+## GDP per capita (constant LCU) - ID: NY.GDP.PCAP.KN
 Path API_NY.GDP.PCAP.KN_DS2_en_csv_v2_2788412
 
 GDP per capita is gross domestic product divided by midyear population. GDP at purchaser's prices is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated assets or for depletion and degradation of natural resources. Data are in constant local currency.
 
-ID: NY.GDP.PCAP.KN
-Source: World Bank national accounts data, and OECD National Accounts data files.
-License:  CC BY-4.0 
-BasePeriod: varies by country
-Long Definition: GDP per capita is gross domestic product divided by midyear population. GDP at purchaser's prices is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated assets or for depletion and degradation of natural resources. Data are in constant local currency.
-Periodicity: Annual
 
-## GDP per capita, PPP (current international $)
+### Source: 
+World Bank national accounts data, and OECD National Accounts data files.
+### License:  
+CC BY-4.0 
+### BasePeriod: 
+varies by country
+### Long Definition: 
+GDP per capita is gross domestic product divided by midyear population. GDP at purchaser's prices is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated assets or for depletion and degradation of natural resources. Data are in constant local currency.
+### Periodicity: 
+Annual
+
+## GDP per capita, PPP (current international $) - ID: NY.GDP.PCAP.PP.CD
 Path: API_NY.GDP.PCAP.PP.CD_DS2_en_csv_v2_1887125
 
 This indicator provides per capita values for gross domestic product (GDP) expressed in current international dollars converted by purchasing power parity (PPP) conversion factor. GDP is the sum of gross value added by all resident producers in the country plus any product taxes and minus any subsidies not included in the value of the products. conversion factor is a spatial price deflator and currency converter that controls for price level differences between countries. Total population is a mid-year population based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.
 
-ID: NY.GDP.PCAP.PP.CD
-Source: International Comparison Program, World Bank | World Development Indicators database, World Bank | Eurostat-OECD PPP Programme.
-License:  CC BY-4.0 
-Aggregation Method: Weighted average
-Long Definition: This indicator provides per capita values for gross domestic product (GDP) expressed in current international dollars converted by purchasing power parity (PPP) conversion factor. GDP is the sum of gross value added by all resident producers in the country plus any product taxes and minus any subsidies not included in the value of the products. conversion factor is a spatial price deflator and currency converter that controls for price level differences between countries. Total population is a mid-year population based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.
-Periodicity: Annual
-Statistical Concept and Methodology: Typically, higher income countries have higher price levels, while lower income countries have lower price levels (Balassa-Samuelson effect). Market exchange rate-based cross-country comparisons of GDP at its expenditure components reflect both differences in economic outputs (volumes) and prices. Given the differences in price levels, the size of higher income countries is inflated, while the size of lower income countries is depressed in the comparison. PPP-based cross-country comparisons of GDP at its expenditure components only reflect differences in economic outputs (volume), as PPPs control for price level differences between the countries. Hence, the comparison reflects the real size of the countries. For more information on underlying GDP in current international dollar, please refer to the metadata for "GDP, PPP (current international $)" [NY.GDP.MKTP.PP.CD]. For more information on underlying population, please refer to the metadata for "total population” [SP.POP.TOTL]. For the concept and methodology of PPP, please refer to the International Comparison Program (ICP)’s website (worldbank.org/en/programs/icp).
 
-## GDP per capita, PPP (constant 2021 international $)
+### Source: 
+International Comparison Program, World Bank | World Development Indicators database, World Bank | Eurostat-OECD PPP Programme.
+### License:  
+CC BY-4.0 
+### Aggregation Method: 
+Weighted average
+### Long Definition: 
+This indicator provides per capita values for gross domestic product (GDP) expressed in current international dollars converted by purchasing power parity (PPP) conversion factor. GDP is the sum of gross value added by all resident producers in the country plus any product taxes and minus any subsidies not included in the value of the products. conversion factor is a spatial price deflator and currency converter that controls for price level differences between countries. Total population is a mid-year population based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.
+### Periodicity: 
+Annual
+### Statistical Concept and Methodology: 
+Typically, higher income countries have higher price levels, while lower income countries have lower price levels (Balassa-Samuelson effect). Market exchange rate-based cross-country comparisons of GDP at its expenditure components reflect both differences in economic outputs (volumes) and prices. Given the differences in price levels, the size of higher income countries is inflated, while the size of lower income countries is depressed in the comparison. PPP-based cross-country comparisons of GDP at its expenditure components only reflect differences in economic outputs (volume), as PPPs control for price level differences between the countries. Hence, the comparison reflects the real size of the countries. For more information on underlying GDP in current international dollar, please refer to the metadata for "GDP, PPP (current international $)" [NY.GDP.MKTP.PP.CD]. For more information on underlying population, please refer to the metadata for "total population” [SP.POP.TOTL]. For the concept and methodology of PPP, please refer to the International Comparison Program (ICP)’s website (worldbank.org/en/programs/icp).
+
+## GDP per capita, PPP (constant 2021 international $) - ID: NY.GDP.PCAP.PP.KD
 Path: API_NY.GDP.PCAP.PP.KD_DS2_en_csv_v2_1588678
 
 GDP per capita based on purchasing power parity (PPP). PPP GDP is gross domestic product converted to international dollars using purchasing power parity rates. An international dollar has the same purchasing power over GDP as the U.S. dollar has in the United States. GDP at purchaser's prices is the sum of gross value added by all resident producers in the country plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated assets or for depletion and degradation of natural resources. Data are in constant 2021 international dollars.
 
-ID: NY.GDP.PCAP.PP.KD
-Source: International Comparison Program, World Bank | World Development Indicators database, World Bank | Eurostat-OECD PPP Programme.
-License:  CC BY-4.0 
-Aggregation Method: Weighted average
-BasePeriod: 2021
-Long Definition: GDP per capita based on purchasing power parity (PPP). PPP GDP is gross domestic product converted to international dollars using purchasing power parity rates. An international dollar has the same purchasing power over GDP as the U.S. dollar has in the United States. GDP at purchaser's prices is the sum of gross value added by all resident producers in the country plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated assets or for depletion and degradation of natural resources. Data are in constant 2021 international dollars.
-Periodicity: Annual
-Statistical Concept and Methodology: For the concept and methodology of PPP, please refer to the International Comparison Program (ICP)’s website (worldbank.org/en/programs/icp).
+### Source: 
+International Comparison Program, World Bank | World Development Indicators database, World Bank | Eurostat-OECD PPP Programme.
+### License:  
+CC BY-4.0 
+### Aggregation Method: 
+Weighted average
+### BasePeriod: 
+2021
+### Long Definition: 
+GDP per capita based on purchasing power parity (PPP). PPP GDP is gross domestic product converted to international dollars using purchasing power parity rates. An international dollar has the same purchasing power over GDP as the U.S. dollar has in the United States. GDP at purchaser's prices is the sum of gross value added by all resident producers in the country plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated assets or for depletion and degradation of natural resources. Data are in constant 2021 international dollars.
+### Periodicity: 
+Annual
+### Statistical Concept and Methodology: 
+For the concept and methodology of PPP, please refer to the International Comparison Program (ICP)’s website (worldbank.org/en/programs/icp).
 
 ## GDP per capita (current LCU) - ID: NY.GDP.PCAP.CN
 Path: API_NY.GDP.PCAP.CN_DS2_en_csv_v2_2789032
 
 GDP per capita is gross domestic product divided by midyear population. GDP is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated assets or for depletion and degradation of natural resources. Data are in current local currency.
 
-Source: World Bank national accounts data, and OECD National Accounts data files.
-License:  CC BY-4.0 
-Long Definition: GDP per capita is gross domestic product divided by midyear population. GDP is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated assets or for depletion and degradation of natural resources. Data are in current local currency.
-Periodicity: Annual
+### Source: 
+World Bank national accounts data, and OECD National Accounts data files.
+### License:  
+CC BY-4.0 
+### Long Definition: 
+GDP per capita is gross domestic product divided by midyear population. GDP is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated assets or for depletion and degradation of natural resources. Data are in current local currency.
+### Periodicity: 
+Annual
 
 
