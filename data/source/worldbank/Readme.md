@@ -73,10 +73,67 @@ GDP is the sum of gross value added by all resident producers in the economy plu
 ### Periodicity: 
 Annual  
 
-* API_NY.GDP.PCAP.CD_DS2_en_csv_v2_1887433
-* API_NY.GDP.PCAP.KN_DS2_en_csv_v2_2788412
-* API_NY.GDP.PCAP.PP.CD_DS2_en_csv_v2_1887125
-* API_NY.GDP.PCAP.PP.KD_DS2_en_csv_v2_1588678
+## GDP per capita (current US$)
+Path: API_NY.GDP.PCAP.CD_DS2_en_csv_v2_1887433
+
+GDP per capita is gross domestic product divided by midyear population. GDP is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated assets or for depletion and degradation of natural resources. Data are in current U.S. dollars.
+
+ID: NY.GDP.PCAP.CD
+Source: World Bank national accounts data, and OECD National Accounts data files.
+License:  CC BY-4.0 
+Aggregation Method: Weighted average
+Long Definition: GDP per capita is gross domestic product divided by midyear population. GDP is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated assets or for depletion and degradation of natural resources. Data are in current U.S. dollars.
+Periodicity: Annual
+Statistical Concept and Methodology: For more information, see the metadata for current U.S. dollar GDP (NY.GDP.MKTP.CD) and total population (SP.POP.TOTL).
+
+## GDP per capita (constant LCU)
+Path API_NY.GDP.PCAP.KN_DS2_en_csv_v2_2788412
+
+GDP per capita is gross domestic product divided by midyear population. GDP at purchaser's prices is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated assets or for depletion and degradation of natural resources. Data are in constant local currency.
+
+ID: NY.GDP.PCAP.KN
+Source: World Bank national accounts data, and OECD National Accounts data files.
+License:  CC BY-4.0 
+BasePeriod: varies by country
+Long Definition: GDP per capita is gross domestic product divided by midyear population. GDP at purchaser's prices is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated assets or for depletion and degradation of natural resources. Data are in constant local currency.
+Periodicity: Annual
+
+## GDP per capita, PPP (current international $)
+Path: API_NY.GDP.PCAP.PP.CD_DS2_en_csv_v2_1887125
+
+This indicator provides per capita values for gross domestic product (GDP) expressed in current international dollars converted by purchasing power parity (PPP) conversion factor. GDP is the sum of gross value added by all resident producers in the country plus any product taxes and minus any subsidies not included in the value of the products. conversion factor is a spatial price deflator and currency converter that controls for price level differences between countries. Total population is a mid-year population based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.
+
+ID: NY.GDP.PCAP.PP.CD
+Source: International Comparison Program, World Bank | World Development Indicators database, World Bank | Eurostat-OECD PPP Programme.
+License:  CC BY-4.0 
+Aggregation Method: Weighted average
+Long Definition: This indicator provides per capita values for gross domestic product (GDP) expressed in current international dollars converted by purchasing power parity (PPP) conversion factor. GDP is the sum of gross value added by all resident producers in the country plus any product taxes and minus any subsidies not included in the value of the products. conversion factor is a spatial price deflator and currency converter that controls for price level differences between countries. Total population is a mid-year population based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.
+Periodicity: Annual
+Statistical Concept and Methodology: Typically, higher income countries have higher price levels, while lower income countries have lower price levels (Balassa-Samuelson effect). Market exchange rate-based cross-country comparisons of GDP at its expenditure components reflect both differences in economic outputs (volumes) and prices. Given the differences in price levels, the size of higher income countries is inflated, while the size of lower income countries is depressed in the comparison. PPP-based cross-country comparisons of GDP at its expenditure components only reflect differences in economic outputs (volume), as PPPs control for price level differences between the countries. Hence, the comparison reflects the real size of the countries. For more information on underlying GDP in current international dollar, please refer to the metadata for "GDP, PPP (current international $)" [NY.GDP.MKTP.PP.CD]. For more information on underlying population, please refer to the metadata for "total population” [SP.POP.TOTL]. For the concept and methodology of PPP, please refer to the International Comparison Program (ICP)’s website (worldbank.org/en/programs/icp).
+
+## GDP per capita, PPP (constant 2021 international $)
+Path: API_NY.GDP.PCAP.PP.KD_DS2_en_csv_v2_1588678
+
+GDP per capita based on purchasing power parity (PPP). PPP GDP is gross domestic product converted to international dollars using purchasing power parity rates. An international dollar has the same purchasing power over GDP as the U.S. dollar has in the United States. GDP at purchaser's prices is the sum of gross value added by all resident producers in the country plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated assets or for depletion and degradation of natural resources. Data are in constant 2021 international dollars.
+
+ID: NY.GDP.PCAP.PP.KD
+Source: International Comparison Program, World Bank | World Development Indicators database, World Bank | Eurostat-OECD PPP Programme.
+License:  CC BY-4.0 
+Aggregation Method: Weighted average
+BasePeriod: 2021
+Long Definition: GDP per capita based on purchasing power parity (PPP). PPP GDP is gross domestic product converted to international dollars using purchasing power parity rates. An international dollar has the same purchasing power over GDP as the U.S. dollar has in the United States. GDP at purchaser's prices is the sum of gross value added by all resident producers in the country plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated assets or for depletion and degradation of natural resources. Data are in constant 2021 international dollars.
+Periodicity: Annual
+Statistical Concept and Methodology: For the concept and methodology of PPP, please refer to the International Comparison Program (ICP)’s website (worldbank.org/en/programs/icp).
+
+## GDP per capita (current LCU)
+**Pending**
+
+GDP per capita is gross domestic product divided by midyear population. GDP is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated assets or for depletion and degradation of natural resources. Data are in current local currency.
+
+ID: NY.GDP.PCAP.CN
+Source: World Bank national accounts data, and OECD National Accounts data files.
+License:  CC BY-4.0 
+Long Definition: GDP per capita is gross domestic product divided by midyear population. GDP is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated assets or for depletion and degradation of natural resources. Data are in current local currency.
+Periodicity: Annual
 
 
-NY.GDP.MKTP.CD
