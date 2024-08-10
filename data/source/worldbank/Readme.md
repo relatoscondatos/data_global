@@ -16,11 +16,27 @@ Annual
 ### Statistical Concept and Methodology: 
 Gross domestic product (GDP) represents the sum of value added by all its producers. Value added is the value of the gross output of producers less the value of intermediate goods and services consumed in production, before accounting for consumption of fixed capital in production. The United Nations System of National Accounts calls for value added to be valued at either basic prices (excluding net taxes on products) or producer prices (including net taxes on products paid by producers but excluding sales or value added taxes). Both valuations exclude transport charges that are invoiced separately by producers. Total GDP is measured at purchaser prices. Value added by industry is normally measured at basic prices.
 
-* API_NY.GDP.MKTP.CD_DS2_en_csv_v2_2788787
 * API_NY.GDP.MKTP.CN_DS2_en_csv_v2_2001080
 * API_NY.GDP.MKTP.KD.ZG_DS2_en_csv_v2_2788350
-* API_NY.GDP.MKTP.KN_DS2_en_csv_v2_2001151
-* API_NY.GDP.MKTP.KN_DS2_en_csv_v2_2788936
+
+## GDP (constant LCU) - ID: NY.GDP.MKTP.KN
+Path: API_NY.GDP.MKTP.KN_DS2_en_csv_v2_2001151  
+
+GDP is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated assets or for depletion and degradation of natural resources. Data are in constant local currency.
+
+
+### Source: 
+World Bank national accounts data, and OECD National Accounts data files.
+### License:  
+CC BY-4.0   
+### BasePeriod: 
+varies by country  
+
+### Long Definition: 
+GDP is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated assets or for depletion and degradation of natural resources. Data are in constant local currency.  
+### Periodicity: 
+Annual  
+
 * API_NY.GDP.PCAP.CD_DS2_en_csv_v2_1887433
 * API_NY.GDP.PCAP.KN_DS2_en_csv_v2_2788412
 * API_NY.GDP.PCAP.PP.CD_DS2_en_csv_v2_1887125
