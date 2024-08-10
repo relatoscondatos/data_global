@@ -7,6 +7,14 @@ Path: API_NY.GDP.MKTP.CD_DS2_en_csv_v2_2002465
 
 GDP at purchaser's prices is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated assets or for depletion and degradation of natural resources. Data are in current U.S. dollars. Dollar figures for GDP are converted from domestic currencies using single year official exchange rates. For a few countries where the official exchange rate does not reflect the rate effectively applied to actual foreign exchange transactions, an alternative conversion factor is used.
 
+### Source: 
+World Bank national accounts data, and OECD National Accounts data files.
+### License:  
+CC BY-4.0 
+### Aggregation Method: 
+Gap-filled total
+
+
 ### Limitations and Exceptions: 
 Gross domestic product (GDP), though widely tracked, may not always be the most relevant summary of aggregated economic performance for all economies, especially when production occurs at the expense of consuming capital stock. While GDP estimates based on the production approach are generally more reliable than estimates compiled from the income or expenditure side, different countries use different definitions, methods, and reporting standards. World Bank staff review the quality of national accounts data and sometimes make adjustments to improve consistency with international guidelines. Nevertheless, significant discrepancies remain between international standards and actual practice. Many statistical offices, especially those in developing countries, face severe limitations in the resources, time, training, and budgets required to produce reliable and comprehensive series of national accounts statistics. Among the difficulties faced by compilers of national accounts is the extent of unreported economic activity in the informal or secondary economy. In developing countries a large share of agricultural output is either not exchanged (because it is consumed within the household) or not exchanged for money.
 ### Long Definition: 
