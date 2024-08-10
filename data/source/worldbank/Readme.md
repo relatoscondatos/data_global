@@ -3,7 +3,7 @@ Data sources from the World Bank [https://data.worldbank.org/](https://data.worl
 * API_PA.NUS.PPPC.RF_DS2_en_csv_v2_1665754
 
 ## GDP (current US$) - ID: NY.GDP.MKTP.CD  
-API_NY.GDP.MKTP.CD_DS2_en_csv_v2_2002465  
+Path: API_NY.GDP.MKTP.CD_DS2_en_csv_v2_2002465  
 
 GDP at purchaser's prices is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated assets or for depletion and degradation of natural resources. Data are in current U.S. dollars. Dollar figures for GDP are converted from domestic currencies using single year official exchange rates. For a few countries where the official exchange rate does not reflect the rate effectively applied to actual foreign exchange transactions, an alternative conversion factor is used.
 
@@ -12,8 +12,8 @@ Gross domestic product (GDP), though widely tracked, may not always be the most 
 ### Long Definition: 
 GDP at purchaser's prices is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated assets or for depletion and degradation of natural resources. Data are in current U.S. dollars. Dollar figures for GDP are converted from domestic currencies using single year official exchange rates. For a few countries where the official exchange rate does not reflect the rate effectively applied to actual foreign exchange transactions, an alternative conversion factor is used.
 ### Periodicity: 
-Annual
-###Statistical Concept and Methodology: 
+Annual  
+### Statistical Concept and Methodology: 
 Gross domestic product (GDP) represents the sum of value added by all its producers. Value added is the value of the gross output of producers less the value of intermediate goods and services consumed in production, before accounting for consumption of fixed capital in production. The United Nations System of National Accounts calls for value added to be valued at either basic prices (excluding net taxes on products) or producer prices (including net taxes on products paid by producers but excluding sales or value added taxes). Both valuations exclude transport charges that are invoiced separately by producers. Total GDP is measured at purchaser prices. Value added by industry is normally measured at basic prices.
 
 * API_NY.GDP.MKTP.CD_DS2_en_csv_v2_2788787
